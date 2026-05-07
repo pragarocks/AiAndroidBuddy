@@ -94,6 +94,21 @@
             android:exported="false"
             android:foregroundServiceType="microphone" />
 
+        <!-- Quick Settings tile — one-tap AI summary from notification shade -->
+        <service
+            android:name=".services.QuickSummaryTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_pet_notification"
+            android:label="@string/tile_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="false" />
+        </service>
+
         <!-- Boot receiver -->
         <receiver
             android:name=".receivers.BootReceiver"
