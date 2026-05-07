@@ -1,0 +1,17 @@
+{
+  "name": "Boba",
+  "species": "blob",
+  "author": "pocketpet-team",
+  "frameSize": { "width": 192, "height": 208 },
+  "states": {
+    "idle":     { "row": 0, "frames": 4, "fps": 4 },
+    "thinking": { "row": 1, "frames": 6, "fps": 8 },
+    "working":  { "row": 2, "frames": 6, "fps": 8 },
+    "sleeping": { "row": 3, "frames": 4, "fps": 2 },
+    "success":  { "row": 4, "frames": 5, "fps": 10 },
+    "error":    { "row": 5, "frames": 4, "fps": 6 },
+    "waiting":  { "row": 6, "frames": 4, "fps": 5 },
+    "excited":  { "row": 7, "frames": 6, "fps": 12 },
+    "running":  { "row": 8, "frames": 6, "fps": 10 }
+  }
+}
