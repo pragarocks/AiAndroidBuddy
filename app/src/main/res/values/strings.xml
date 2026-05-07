@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketPet</string>
+    <string name="notification_service_label">PocketPet Notification Reader</string>
+    <string name="accessibility_service_label">PocketPet Actions</string>
+    <string name="notification_channel_pet">PocketPet</string>
+    <string name="notification_channel_download">Model Download</string>
+</resources>
