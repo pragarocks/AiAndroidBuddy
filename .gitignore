@@ -1,0 +1,61 @@
+# Android build artifacts
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# App build outputs
+app/build/
+app/release/
+
+# Models (too large for git — downloaded at runtime)
+models/
+app/src/main/assets/models/
+**/*.mnn
+**/*.onnx
+**/*.bin
+
+# Keystore (never commit signing keys)
+*.jks
+*.keystore
+keystore.properties
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Claude Code worktrees and agent files
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+local.properties
+
+# Kotlin daemon cache
+.kotlin/

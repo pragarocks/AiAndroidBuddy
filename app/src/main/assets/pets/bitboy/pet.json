@@ -1,0 +1,6 @@
+{
+  "id": "bitboy",
+  "displayName": "BitBoy",
+  "description": "A tiny Game Boy-inspired handheld console Codex pet.",
+  "spritesheetPath": "spritesheet.webp"
+}
